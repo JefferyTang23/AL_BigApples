@@ -39,7 +39,7 @@ public class ALTester {
     hwuan.add(5); 
     hwuan.add(6);
     hwuan.add(1);
-    huwan.add(23);
+    hwuan.add(23);
     hwuan.remove(2);
     System.out.println(hwuan.toString());
     
