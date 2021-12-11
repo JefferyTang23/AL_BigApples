@@ -8,15 +8,33 @@ time spent:  0.5 hours
 import java.util.ArrayList;
 
 public class ALTester {
-  public static int[] arrayRandInts(int size) {
-    int[] randInts = new int[size];
-    for (int x = 0 ; x < size ; x += 1) {
-      randInts[x] = (int)(Math.random() * 10);
-    }
-    return randInts;
-    }
-
-  public static void main (String[] args) {
-
+  public ArrayList<Integer> kolf;
+  
+  public String toString() {
+    return kolf.toString(); 
   }
+  
+  public ALTester {
+    kolf = new ArrayList<Integer>(23); 
+    for (int counter = 0; counter < 23; counter++){
+      kolf.add((int)(Math.random() * 50));
+    }
+  }
+  
+  public boolean isSorted() {
+    for (int i = 0; i < kolf.size(); i++) {
+      if ((randle.get(i).compareTo(randle.get(i+1))) > 0){
+        return false; 
+      }
+    }
+    return true; 
+  }
+  
+  public static void main (String[] args) {
+    ALTester jeff = new ALTester(); 
+    System.out.println(jeff.toString());
+    System.out.println(jeff.isSorted());
+    
+    }
+
 }
