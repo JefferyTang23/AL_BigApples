@@ -14,7 +14,7 @@ public class ALTester {
     return kolf.toString(); 
   }
   
-  public ALTester {
+  public ALTester() {
     kolf = new ArrayList<Integer>(23); 
     for (int counter = 0; counter < 23; counter++){
       kolf.add((int)(Math.random() * 50));
