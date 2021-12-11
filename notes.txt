@@ -3,4 +3,10 @@ APCS
 L02 -- Well Al B. Sorted
 2021-12-10
 time spent:  0.5 hours
+DISCO:
+- It is helpful to override the toString method to print the array list because it helps us tell if it is sorted or not.
+- We did not need to change the remove method because it does not make the list not sorted. 
+QCC:
+- How else can we manipulate a list?
+
  
