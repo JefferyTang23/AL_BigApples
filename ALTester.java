@@ -23,7 +23,7 @@ public class ALTester {
   
   public boolean isSorted() {
     for (int i = 0; i < kolf.size(); i++) {
-      if ((randle.get(i).compareTo(randle.get(i+1))) > 0){
+      if ((kolf.get(i).compareTo(kolf.get(i+1))) > 0){
         return false; 
       }
     }
