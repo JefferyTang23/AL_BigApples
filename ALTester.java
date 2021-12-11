@@ -35,6 +35,13 @@ public class ALTester {
     System.out.println(jeff.toString());
     System.out.println(jeff.isSorted());
     
+    OrderedArrayList hwuan = new OrderedArrayList();
+    hwuan.add(5); 
+    hwuan.add(6);
+    hwuan.add(1);
+    System.out.println(hwuan.toString());
+    System.out.println(hwuan.isSorted()); 
+    
     }
 
 }
