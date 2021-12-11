@@ -10,18 +10,18 @@ import java.util.ArrayList;
 public class ALTester {
   public ArrayList<Integer> kolf;
   
-  public String toString() {
+  public String toString() { // Returns the list as a String
     return kolf.toString(); 
   }
   
-  public ALTester() {
+  public ALTester() { // Creates the list
     kolf = new ArrayList<Integer>(23); 
     for (int counter = 0; counter < 23; counter++){
       kolf.add((int)(Math.random() * 50));
     }
   }
   
-  public boolean isSorted() {
+  public boolean isSorted() { // Checks if the list is sorted or not
     for (int i = 0; i < kolf.size(); i++) {
       if ((kolf.get(i).compareTo(kolf.get(i+1))) > 0){
         return false; 
