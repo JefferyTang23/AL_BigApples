@@ -41,24 +41,24 @@ public class ALTester {
   public static void main (String[] args) {
     System.out.println("\nPOPULATING AN ARRAY LIST:");
     ALTester jeff = new ALTester(); 
-    System.out.println(jeff.toString());
+    System.out.println(jeff.toString()); // Prints the randomly populated array list 
     System.out.println("CHECKING IF THAT ARRAY LIST IS SORTED:");
-    System.out.println(jeff.isSorted());
+    System.out.println(jeff.isSorted()); // Should print false most of the time
     
     
     System.out.println("\nTESTING OrderedArrayList:");
     OrderedArrayList hwuan = new OrderedArrayList();
-    System.out.println("TESTING add() from OrderedArrayList:\n");
+    System.out.println("TESTING add() from OrderedArrayList:");
     hwuan.add(5); 
     hwuan.add(6);
     hwuan.add(1);
     hwuan.add(23);
-    System.out.println(hwuan.toString());
+    System.out.println(hwuan.toString()); // Should print [1, 5, 6, 23]
     System.out.println("TESTING get() from OrderedArrayList:");
-    System.out.println(hwuan.get(2));
+    System.out.println(hwuan.get(2)); // Should print 6
     System.out.println("TESTING remove() from OrderedArrayList:");
     hwuan.remove(2);
-    System.out.println(hwuan.toString());
+    System.out.println(hwuan.toString()); // Should print [1, 5, 23]
     
     }
 
