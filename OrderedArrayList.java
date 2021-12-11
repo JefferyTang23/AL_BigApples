@@ -4,6 +4,14 @@ APCS
 L02 -- Well Al B. Sorted
 2021-12-10
 time spent:  0.5 hours
+
+DISCO:
+- It is helpful to override the toString method to print the array list because it helps us tell if it is sorted or not.
+- 
+
+QCC:
+
+
  *****************************************************/
 
 import java.util.ArrayList;
@@ -24,12 +32,12 @@ public class OrderedArrayList {
     return _data.size(); 
   }
   
-  public Integer get(int index) {
+  public int get(int index) {
     return _data.get(index); 
   }
   
-  public Integer remove(int index) {
-    return _data.remove(index); 
+  public void remove(int index) {
+    _data.remove(index); 
   }
   
   public void add(Integer newVal) {
