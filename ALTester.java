@@ -40,7 +40,6 @@ public class ALTester {
     hwuan.add(6);
     hwuan.add(1);
     System.out.println(hwuan.toString());
-    System.out.println(hwuan.isSorted()); 
     
     }
 
