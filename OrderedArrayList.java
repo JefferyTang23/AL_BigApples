@@ -7,10 +7,10 @@ time spent:  0.5 hours
 
 DISCO:
 - It is helpful to override the toString method to print the array list because it helps us tell if it is sorted or not.
-- 
+- We did not need to change the remove method because it does not make the list not sorted. 
 
 QCC:
-
+- How else can we manipulate a list?
 
  *****************************************************/
 
@@ -24,23 +24,23 @@ public class OrderedArrayList {
     _data = new ArrayList<Integer>(); 
   }
   
-  public String toString() {
+  public String toString() { // returns the list in String form
     return _data.toString(); 
   }
   
-  public int size() {
+  public int size() { // returns the size of the list
     return _data.size(); 
   }
   
-  public int get(int index) {
+  public int get(int index) { // returns the element at the specified index
     return _data.get(index); 
   }
   
-  public void remove(int index) {
+  public void remove(int index) { // removes element from list at specific index
     _data.remove(index); 
   }
   
-  public void add(Integer newVal) {
+  public void add(Integer newVal) { // an add method that always keeps the list sorted
     for( int i = 0; i < _data.size(); i++ ) {
   	    if ( newVal.compareTo( _data.get(i) ) < 0 ) { 
   	  	_data.add( i, newVal );
