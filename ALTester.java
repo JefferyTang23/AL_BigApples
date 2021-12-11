@@ -39,15 +39,24 @@ public class ALTester {
   }
   
   public static void main (String[] args) {
+    System.out.println("POPULATING AN ARRAY LIST:\n");
     ALTester jeff = new ALTester(); 
     System.out.println(jeff.toString());
+    System.out.println("CHECKING IF THAT ARRAY LIST IS SORTED:\n");
     System.out.println(jeff.isSorted());
     
+    
+    System.out.println("TESTING OrderedArrayList:\n");
     OrderedArrayList hwuan = new OrderedArrayList();
+    System.out.println("TESTING add() from OrderedArrayList:\n");
     hwuan.add(5); 
     hwuan.add(6);
     hwuan.add(1);
     hwuan.add(23);
+    System.out.println(hwuan.toString());
+    System.out.println("TESTING get() from OrderedArrayList:\n");
+    System.out.println(hwuan.get(2));
+    System.out.println("TESTING remove() from OrderedArrayList:\n");
     hwuan.remove(2);
     System.out.println(hwuan.toString());
     
