@@ -2,7 +2,8 @@
 * Big Apples: Weichen Liu + Blueface, Jeffery Tang + Mathias, Lior Polischouk + Toothless
 
 ## ALTester
-The constructor creates an ArrayList populated by 23 Integers. The toString method is run on the ArrayList or OrderedArrayList before the isSorted method is run on it, returning a boolean depending on if the input is sorted in ascending order or not.
+* The constructor creates an ArrayList populated with 23 Integers. The toString method is run on the ArrayList to check if the list is sorted or not. 
+* An object of class OrderedArrayList is also created. Integers are either added or removed from the object to check for functionality. 
 
 ## OrderedArrayList
 * Constructor: creates new ArrayList<Integer> object _data
