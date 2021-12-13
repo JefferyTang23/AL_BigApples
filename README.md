@@ -11,4 +11,4 @@
 * size(): returns the size of the list using default size() method from ArrayList
 * get(): returns the element at the specified index using default get() method from ArrayList
 * remove(): removes element from list at specific index using default remove() method from ArrayList
-* add(): adds inputted value to the list depending on its value. Ex. if inputted value is 2 and the list is [0,1], the 2 would go after the 1. 
+* add(): adds inputted element to the list depending on its value. If the inputted element has a lesser value than the element on the list, then the inputted value is added to the index of that element on the list. If the inputted element has a value greater than all of the elements on the list, it is simply added to the end of the list. A for-loop is used to compare the value of the inputted element to the elements on the list. Ex. if inputted value is 2 and the list is [0,1], the 2 would go after the 1. 
