@@ -32,12 +32,12 @@ public class OrderedArrayList {
     return _data.size(); 
   }
   
-  public int get(int index) { // returns the element at the specified index
+  public Integer get(int index) { // returns the element at the specified index
     return _data.get(index); 
   }
   
-  public void remove(int index) { // removes element from list at specific index
-    _data.remove(index); 
+  public Integer remove(int index) { // removes element from list at specific index
+    return _data.remove(index); 
   }
   
   public void add(Integer newVal) { // an add method that always keeps the list sorted
