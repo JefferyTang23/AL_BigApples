@@ -11,4 +11,4 @@
 * size(): returns the size of the list using default size() method from ArrayList
 * get(): returns the element at the specified index using default get() method from ArrayList
 * remove(): removes element from list at specific index using default remove() method from ArrayList
-* add(): adds inputted value to the end of the ArrayList and maintains ascending order using default add() method from ArrayList
+* add(): adds inputted value to the list depending on its value. Ex. if inputted value is 2 and the list is [0,1], the 2 would go after the 1. 
